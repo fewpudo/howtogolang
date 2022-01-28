@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	foo(5550123)
-}
+type yuan string
 
-func foo(z int) {
+var z yuan
+
+func main() {
+	z = "Vai pro caralho"
+	fmt.Printf("%T", z)
 	fmt.Println(z)
 }

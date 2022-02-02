@@ -2,12 +2,10 @@ package main
 
 import "fmt"
 
-type yuan string
-
-var z yuan
+var z int
 
 func main() {
-	z = "Vai pro caralho"
-	fmt.Printf("%T", z)
+	z = 9
+	fmt.Sprint(z)
 	fmt.Println(z)
 }

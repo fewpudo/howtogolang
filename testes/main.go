@@ -8,4 +8,5 @@ func main() {
 	z = 9
 	fmt.Sprint(z)
 	fmt.Println(z)
+	// LALALALALAAL
 }
